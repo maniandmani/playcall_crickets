@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>PLAY CALL_CRICKETS 2022</title>
+  <meta name="author" content="manimani">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="omutuprice.css">
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <form>
+      <div class="search-box">
+        <h2 class="search-box_label">BOX FORMATION:</h2>
+        <input type="checkbox" name="formation" value="RIGHT-SHOT" id="RIGHT-SHOT">
+        <label for="RIGHT-SHOT" class="label">右SHOT</label>
+        <input type="checkbox" name="formation" value="LEFT-SHOT" id="LEFT-SHOT">
+        <label for="LEFT-SHOT" class="label">左SHOT</label>
+        <input type="checkbox" name="formation" value="SETBACK" id="SETBACK">
+        <label for="SETBACK" class="label">SETBACK</label>
+        <input type="checkbox" name="formation" value="PISTOL" id="PISTOL">
+        <label for="PISTOL" class="label">PISTOL</label>
+      </div>
+      
+      <div class="search-box">
+        <h2 class="search-box_label">MOTION:</h2>
+        <input type="checkbox" name="motion" value="NORMAL" id="NORMAL">
+        <label for="NORMAL" class="label">NORMAL</label>
+        <input type="checkbox" name="motion" value="MOTION" id="MOTION">
+        <label for="MOTION" class="label">MOTION</label>
+      </div>
+      
+      <div class="search-box">
+        <h2 class="search-box_label">PERIMETER FORMATION:</h2>
+        <input type="checkbox" name="pformation" value="RIGHT-DUAL" id="RIGHT-DUAL">
+        <label for="RIGHT-DUAL" class="label">右DUAL</label>
+        <input type="checkbox" name="pformation" value="LEFT-DUAL" id="LEFT-DUAL">
+        <label for="LEFT-DUAL" class="label">左DUAL</label>
+        <!-- 
+        <input type="checkbox" name="pformation" value="RIGHT-ACE" id="RIGHT-ACE">
+        <label for="RIGHT-ACE" class="label">右ACE</label>
+        <input type="checkbox" name="pformation" value="LEFT-ACE" id="LEFT-ACE">
+        <label for="LEFT-ACE" class="label">左ACE</label>
+      -->
+        <br> <br>
+        <input type="checkbox" name="pformation" value="RIGHT-TRIPS" id="RIGHT-TRIPS">
+        <label for="RIGHT-TRIPS" class="label">右TRIPS</label>
+        <input type="checkbox" name="pformation" value="LEFT-TRIPS" id="LEFT-TRIPS">
+        <label for="LEFT-TRIPS" class="label">左TRIPS</label>
+        <!-- 
+        <input type="checkbox" name="pformation" value="RIGHT-TRIO" id="RIGHT-TRIO">
+        <label for="RIGHT-TRIO" class="label">右TRIO</label>
+        <input type="checkbox" name="pformation" value="LEFT-TRIO" id="LEFT-TRIO">
+        <label for="LEFT-TRIO" class="label">左TRIO</label>
+      -->
+      </div>
+      
+      <div class="search-box">
+        <h2 class="search-box_label">BOX ASSIGNMENT</h2>
+        <input type="checkbox" name="bassignment" value="POWER", id="POWER">
+        <label for="POWER" class="label">POWER</label>
+        <input type="checkbox" name="bassignment" value="SWEEP" id="SWEEP">
+        <label for="SWEEP" class="label">SWEEP</label>
+        <input type="checkbox" name="bassignment" value="OPTION" id="OPTION">
+        <label for="OPTION" class="label">OPTION</label>
+        <br> <br>
+        <input type="checkbox" name="bassignment" value="ST-SLIDE" id="ST-SLIDE">
+        <label for="ST-SLIDE" class="label">ST-SLIDE</label>
+        <input type="checkbox" name="bassignment" value="POWER-FAKE" id="POWER-FAKE">
+        <label for="POWER-FAKE" class="label">POWER-FAKE</label>
+        <input type="checkbox" name="bassignment" value="ROLL" id="ROLL">
+        <label for="ROLL" class="label">ROLL</label>
+      </div>
+
+      <div class="search-box">
+        <h2 class="search-box_label">PERIMETER ASSIGNMENT</h2>
+        <input type="checkbox" name="passignment" value="HANK-MILLS" id="HANK-MILLS">
+        <label for="HANK-MILLS" class="label">HANK-MILLS</label>
+        <input type="checkbox" name="passignment" value="LEVEL-HOSS" id="LEVEL-HOSS">
+        <label for="LEVEL-HOSS" class="label">LEVEL-HOSS</label>
+        <input type="checkbox" name="passignment" value="CHAIR-SEAM" id="CHAIR-SEAM">
+        <label for="CHAIR-SEAM" class="label">CHAIR-SEAM</label>
+        <input type="checkbox" name="passignment" value="ALL-UP" id="ALL-UP">
+        <label for="ALL-UP" class="label">ALL-UP</label>
+        <br> <br>
+        <input type="checkbox" name="passignment" value="SPACING" id="SPACING">
+        <label for="SPACING" class="label">SPACING</label>
+        <input type="checkbox" name="passignment" value="FLOOD" id="FLOOD">
+        <label for="FLOOD" class="label">FLOOD</label>
+        <input type="checkbox" name="passignment" value="CHINA" id="CHINA">
+        <label for="CHINA" class="label">CHINA</label>
+        <input type="checkbox" name="passignment" value="ALL-UP" id="ALL-UP">
+        <label for="ALL-UP" class="label">ALL-UP</label>
+      </div>
+      
+      <div class="search-box">
+        <h3 class="search-box_label">COVERAGE:</h3>
+        <input type="checkbox" name="coverage" value="COVER-2" id="COVER-2">
+        <label for="COVER-2" class="label">COVER-2</label>
+        <input type="checkbox" name="coverage" value="COVER-3" id="COVER-3">
+        <label for="COVER-3" class="label">COVER-3</label>
+      </div>
+      
+      <div class="search-box">
+        <h3 class="search-box_label">WEAKNESS:</h3>
+        <input type="checkbox" name="weakness" value="CB" id="CB">
+        <label for="CB" class="label">CB</label>
+        <input type="checkbox" name="weakness" value="SF" id="SF">
+        <label for="SF" class="label">SF</label>
+        <input type="checkbox" name="weakness" value="ILB" id="ILB">
+        <label for="ILB" class="label">ILB</label>
+        <input type="checkbox" name="weakness" value="OLB" id="OLB">
+        <label for="OLB" class="label">OLB</label>
+        <input type="checkbox" name="weakness" value="DE" id="DE">
+        <label for="DE" class="label">DE</label>
+        <input type="checkbox" name="weakness" value="DT" id="DT">
+        <label for="DT" class="label">DT</label>
+      </div>
+
+
+
+  <ul class="list">
+
+    <!-- 右DUAL HANK-MILLS -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["HANK-MILLS"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1y4KepQ9CdZ2GzTgWcyUWMNRHxJbK37ap&usp=sharing" 
+      alt="vsCover2_NORMAL_右DUALからHANK-MILLS"
+      ><br>
+        NORMAL_右DUAL から HANK-MILLS<br>
+        coverage: COVER-2<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["HANK-MILLS"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB", "OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1VQciwge4h7Wtrmi2CZ53zJmKOpZZErSU&usp=sharing" 
+      alt="vsCover2_MOTION_右DUALからHANK-MILLS"
+      ><br>
+        MOTION_右DUAL から HANK-MILLS<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["HANK-MILLS"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=10Jf7xpena7khRDngaTff20zRUbhAhz-W&usp=sharing" 
+      alt="vsCover3_NORMAL_右DUALからHANK-MILLS"
+      ><br>
+        NORMAL_右DUAL から HANK-MILLS<br>
+        coverage: COVER-3<br>
+        weakness: OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["HANK-MILLS"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["OLB", "SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1wy7osdAhL9xdPZtIEwz8WDZv0qnwdTke&usp=sharing" 
+      alt="vsCover3_MOTION_右DUALからHANK-MILLS"
+      ><br>
+        MOTION_右DUAL から HANK-MILLS<br>
+        coverage: COVER-3<br>
+        weakness: OLB, SF
+    </li>
+
+    <!-- 左DUAL HANK-MILLS -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["HANK-MILLS"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1QYNjzywvbbsVjofKdMdcyDk93VGFchcg&usp=sharing" 
+      alt="vsCover2_NORMAL_左DUALからHANK-MILLS"
+      ><br>
+        NORMAL_左DUAL から HANK-MILLS<br>
+        coverage: COVER-2<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["HANK-MILLS"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB", "OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1bvm-a6sWEeLIUf75-xNMc9GAjb6597Zu&usp=sharing" 
+      alt="vsCover2_MOTION_左DUALからHANK-MILLS"
+      ><br>
+        MOTION_左DUAL から HANK-MILLS<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["HANK-MILLS"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1vCiW5F9ypdD1ryd9_wVlBihnogV3k_EG&usp=sharing" 
+      alt="vsCover3_NORMAL_左DUALからHANK-MILLS"
+      ><br>
+        NORMAL_左DUAL から HANK-MILLS<br>
+        coverage: COVER-3<br>
+        weakness: OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["HANK-MILLS"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["OLB", "SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1KedoVjoAHQWeFdG_WjB19W4NSGupYc_4&usp=sharing" 
+      alt="vsCover3_MOTION_左DUALからHANK-MILLS"
+      ><br>
+        MOTION_左DUAL から HANK-MILLS<br>
+        coverage: COVER-3<br>
+        weakness: OLB, SF
+    </li>
+
+    <!-- 右DUAL LEVEL-HOSS -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["LEVEL-HOSS"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1ZzDAoLwUce34-eg6MmOmoFZ5niSEQsGj&usp=sharing" 
+      alt="vsCover2_NORMAL_右DUALからLEVEL-HOSS"
+      ><br>
+        NORMAL_右DUAL から LEVEL-HOSS<br>
+        coverage: COVER-2<br>
+        weakness: OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["LEVEL-HOSS"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1MuwX41ejUZdPlzFdMyeIcAGOIBqNieug&usp=sharing" 
+      alt="vsCover2_MOTION_右DUALからLEVEL-HOSS"
+      ><br>
+        MOTION_右DUAL から LEVEL-HOSS<br>
+        coverage: COVER-2<br>
+        weakness: OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["LEVEL-HOSS"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1m7x51UGvs3KR-y9P5g4m5X3kmAbLbWbG&usp=sharing" 
+      alt="vsCover3_NORMAL_右DUALからLEVEL-HOSS"
+      ><br>
+        NORMAL_右DUAL から LEVEL-HOSS<br>
+        coverage: COVER-3<br>
+        weakness: OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["LEVEL-HOSS"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1xZrbEegsvfa4w_dIPiPg7olTCuXDUR76&usp=sharing" 
+      alt="vsCover3_MOTION_右DUALからLEVEL-HOSS"
+      ><br>
+        MOTION_右DUAL から LEVEL-HOSS<br>
+        coverage: COVER-3<br>
+        weakness: SF
+    </li>
+
+    <!-- 左DUAL LEVEL-HOSS -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["LEVEL-HOSS"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1-VtoNfmJo6RhxPC1zwKnK7nvZHaLlGoe&usp=sharing" 
+      alt="vsCover2_NORMAL_左DUALからLEVEL-HOSS"
+      ><br>
+        NORMAL_左DUAL から LEVEL-HOSS<br>
+        coverage: COVER-2<br>
+        weakness: OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["LEVEL-HOSS"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1vq5RGzndqtbl1VBGcCmW7gUHf_3Xz7WA&usp=sharing" 
+      alt="vsCover2_MOTION_左DUALからLEVEL-HOSS"
+      ><br>
+        MOTION_左DUAL から LEVEL-HOSS<br>
+        coverage: COVER-2<br>
+        weakness: OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["LEVEL-HOSS"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=18yCQeQ5-yyZtxH6S7gXjgyOarG5PfD4Z&usp=sharing" 
+      alt="vsCover3_NORMAL_左DUALからLEVEL-HOSS"
+      ><br>
+        NORMAL_左DUAL から LEVEL-HOSS<br>
+        coverage: COVER-3<br>
+        weakness: OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["LEVEL-HOSS"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=15U2siTWBzffe11H_0xytdQDTWEf1ntpS&usp=sharing" 
+      alt="vsCover3_MOTION_左DUALからLEVEL-HOSS"
+      ><br>
+        MOTION_左DUAL から LEVEL-HOSS<br>
+        coverage: COVER-3<br>
+        weakness: SF
+    </li>
+
+    <!-- 右DUAL CHAIR-SEAM -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHAIR-SEAM"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1oDcO5YRjdgRvi-T-Rfh2blfwHzZ7a20P&usp=sharing" 
+      alt="vsCover2_NORMAL_右DUALからCHAIR-SEAM"
+      ><br>
+        NORMAL_右DUAL から CHAIR-SEAM<br>
+        coverage: COVER-2<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHAIR-SEAM"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB", "OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1DFc6CvQxeTtQQAbFQ1aUedl1ZgcVZMt7&usp=sharing" 
+      alt="vsCover2_MOTION_右DUALからCHAIR-SEAM"
+      ><br>
+        MOTION_右DUAL から CHAIR-SEAM<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHAIR-SEAM"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1wU5l5asj8SPHbUM1D0FA1uffxTk-ulz6&usp=sharing" 
+      alt="vsCover3_NORMAL_右DUALからCHAIR-SEAM"
+      ><br>
+        NORMAL_右DUAL から CHAIR-SEAM<br>
+        coverage: COVER-3<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHAIR-SEAM"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1V8tu6iK-9uA_uprj2gUD9py87Qxb0f12&usp=sharing" 
+      alt="vsCover3_MOTION_右DUALからCHAIR-SEAM"
+      ><br>
+        MOTION_右DUAL から CHAIR-SEAM<br>
+        coverage: COVER-3<br>
+        weakness: SF
+    </li>
+
+    <!-- 左DUAL CHAIR-SEAM -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHAIR-SEAM"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1cRrq4bxA5HkP1FgPhM08f42HfCaDJ7q-&usp=sharing" 
+      alt="vsCover2_NORMAL_左DUALからCHAIR-SEAM"
+      ><br>
+        NORMAL_左DUAL から CHAIR-SEAM<br>
+        coverage: COVER-2<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHAIR-SEAM"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1banXTTAoZ60c8lzzfr8wNup9Qdzs3yI-&usp=sharing" 
+      alt="vsCover2_MOTION_左DUALからCHAIR-SEAM"
+      ><br>
+        MOTION_左DUAL から CHAIR-SEAM<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHAIR-SEAM"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1RHFj_lxVo0AcdAUk9f_ogq3q7O-DdAxR&usp=sharing" 
+      alt="vsCover3_NORMAL_左DUALからCHAIR-SEAM"
+      ><br>
+        NORMAL_左DUAL から CHAIR-SEAM<br>
+        coverage: COVER-3<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHAIR-SEAM"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["SF"]'
+      >
+      <img src="https://drive.google.com/uc?export=view&id=1Yhor94_cJCkLpZOKA0FLoaDoRktudcfg&usp=sharing" alt="vsCover3_MOTION_左DUALからCHAIR-SEAM"><br>
+        MOTION_左DUAL から CHAIR-SEAM<br>
+        coverage: COVER-3<br>
+        weakness: SF
+    </li>
+
+    <!-- DUAL ALL-UP -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL", "LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1jDxlhAoyXAzNGcYtHHj40_8p_xRmqwx1&usp=sharing" 
+      alt="vsCover2_NORMAL_DUALからALL-UP"
+      ><br>
+        NORMAL_DUAL から ALL-UP<br>
+        coverage: COVER-2<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB", "SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1EpR13hgxGnfxuos2kzPGb7gX_GygRwjk&usp=sharing" 
+      alt="vsCover2_MOTION_右DUALからALL-UP"
+      ><br>
+        MOTION_右DUAL から ALL-UP<br>
+        coverage: COVER-2<br>
+        weakness: CB,SF
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB", "SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1hiczJixKV5h7bvSVLskY73Zef2TigSrr&usp=sharing" 
+      alt="vsCover2_MOTION_左DUALからALL-UP"
+      ><br>
+        MOTION_左DUAL から ALL-UP<br>
+        coverage: COVER-2<br>
+        weakness: CB,SF
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL", "LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1IqPCwV_WuskghxsFwa7uAaARMBM-yg9I&usp=sharing" 
+      alt="vsCover3_NORMAL_DUALからALL-UP"
+      ><br>
+        NORMAL_DUAL から ALL-UP<br>
+        coverage: COVER-3<br>
+        weakness: SF
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB", "SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1lmsCYqj-NQRQe5Kh7BdIpuGt6tzakXum&usp=sharing" 
+      alt="vsCover2_MOTION_右DUALからALL-UP"
+      ><br>
+        MOTION_右DUAL から ALL-UP<br>
+        coverage: COVER-3<br>
+        weakness: CB,SF
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-DUAL"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB", "SF"]'
+      >
+      <img src="https://drive.google.com/uc?export=view&id=1P4pYyAa94NMNE5TeZ45tMlZRP0oVOS4Z&usp=sharing" alt="vsCover2_MOTION_左DUALからALL-UP"><br>
+        MOTION_左DUAL から ALL-UP<br>
+        coverage: COVER-3<br>
+        weakness: CB,SF
+    </li>
+
+
+    <!-- 右TRIPS SPACING -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["SPACING"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1w5qO9YZC6A7qpfSpDrkMZXEIQKGk4Ovc&usp=sharing" 
+      alt="vsCover2_NORMAL_右TRIPSからSPACING"
+      ><br>
+        NORMAL_右TRIPS から SPACING<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["SPACING"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1EKF5xmOgfW_mWqbtlW_dcDCy-GbvAeEQ&usp=sharing" 
+      alt="vsCover2_MOTION_右TRIPSからSPACING"
+      ><br>
+        MOTION_右TRIPS から SPACING<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["SPACING"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1WW4Sd_UEBhMbDaLQkkQtekPvc1msmqg2&usp=sharing" 
+      alt="vsCover3_NORMAL_右TRIPSからSPACING"
+      ><br>
+        NORMAL_右TRIPS から SPACING<br>
+        coverage: COVER-3<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["SPACING"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1xVNSHvxvTcqXsapxjkTZKFfJ4_vmzEi_&usp=sharing" 
+      alt="vsCover3_MOTION_右TRIPSからSPACING"
+      ><br>
+        MOTION_右TRIPS から SPACING<br>
+        coverage: COVER-3<br>
+        weakness: CB, OLB
+    </li>
+
+    <!-- 左TRIPS SPACING -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["SPACING"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1CurKmCU9xeppVRQRc_e6xLXvS7m9ORFZ&usp=sharing" 
+      alt="vsCover2_NORMAL_左TRIPSからSPACING"
+      ><br>
+        NORMAL_左TRIPS から SPACING<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["SPACING"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1SYE9xmaTnLOtRTQWrUugbouP1xg2n0hH&usp=sharing" 
+      alt="vsCover2_MOTION_左TRIPSからSPACING"
+      ><br>
+        MOTION_左TRIPS から SPACING<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["SPACING"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1iHiHK-ze4COyMvOGDfmLuvhdL8G7EUa8&usp=sharing" 
+      alt="vsCover3_NORMAL_左TRIPSからSPACING"
+      ><br>
+        NORMAL_左TRIPS から SPACING<br>
+        coverage: COVER-3<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["SPACING"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1TGTNhbvlj-aPC6VOd0YvbRYp6vd1Mz2j&usp=sharing" 
+      alt="vsCover3_MOTION_左TRIPSからSPACING"
+      ><br>
+        MOTION_左TRIPS から SPACING<br>
+        coverage: COVER-3<br>
+        weakness: CB, OLB
+    </li>
+
+    <!-- 右TRIPS FLOOD -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["FLOOD"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1iDjng_JEq_F_O2aqNUYxAkFTXa7UGgB7&usp=sharing" 
+      alt="vsCover2_NORMAL_右TRIPSからFLOOD"
+      ><br>
+        NORMAL_右TRIPS から FLOOD<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["FLOOD"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1xvn3VA8ZjueExf__LRUs1iHrswlAkQiE&usp=sharing" 
+      alt="vsCover2_MOTION_右TRIPSからFLOOD"
+      ><br>
+        MOTION_右TRIPS から FLOOD<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["FLOOD"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1rMr-GKf1PWfCKkWv9MJA_ZNxGPNx48ui&usp=sharing" 
+      alt="vsCover3_NORMAL_右TRIPSからFLOOD"
+      ><br>
+        NORMAL_右TRIPS から FLOOD<br>
+        coverage: COVER-3<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["FLOOD"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB"]'
+      >erimeter-assignment='FLOOD' data-coverage='COVER-3' data-weakness='CB'>
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1wpostMdX4XxOQvRJQ7V8rMuu6cqQckOO&usp=sharing" 
+      alt="vsCover3_MOTION_右TRIPSからFLOOD"
+      ><br>
+        MOTION_右TRIPS から FLOOD<br>
+        coverage: COVER-3<br>
+        weakness: CB
+    </li>
+
+    <!-- 左TRIPS FLOOD -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["FLOOD"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1wdbrEea96xJE5O0OAXcqTxgmdkM-of1C&usp=sharing" 
+      alt="vsCover2_NORMAL_左TRIPSからFLOOD"
+      ><br>
+        NORMAL_左TRIPS から FLOOD<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["FLOOD"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1Qd-aZaO6MqEIsmDUresXqRJ3H0L5eHoD&usp=sharing" 
+      alt="vsCover2_MOTION_左TRIPSからFLOOD"
+      ><br>
+        MOTION_左TRIPS から FLOOD<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["FLOOD"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1z2j1MTTHnBUha44bDPcsn3zp1UQpyQoH&usp=sharing" 
+      alt="vsCover3_NORMAL_左TRIPSからFLOOD"
+      ><br>
+        NORMAL_左TRIPS から FLOOD<br>
+        coverage: COVER-3<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["FLOOD"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1Lgd_DdPqbaUVkFAcpOHLFJxa2VAarAJv&usp=sharing" 
+      alt="vsCover3_MOTION_左TRIPSからFLOOD"
+      ><br>
+        MOTION_左TRIPS から FLOOD<br>
+        coverage: COVER-3<br>
+        weakness: CB
+    </li>
+
+    <!-- 右TRIPS CHINA -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHINA"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=14u_zf0wL6oqCaAYPk_NsxJKtUGtKTaAC&usp=sharing" 
+      alt="vsCover2_NORMAL_右TRIPSからCHINA"
+      ><br>
+        NORMAL_右TRIPS から CHINA<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHINA"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1brEBCnFljrSpk1ix0DcxJOQGLMTiRouJ&usp=sharing" 
+      alt="vsCover2_MOTION_右TRIPSからCHINA"
+      ><br>
+        MOTION_右TRIPS から CHINA<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHINA"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1fUk-wEt9DTtrihdCiEEtqlSNPIgArW-V&usp=sharing" 
+      alt="vsCover3_NORMAL_右TRIPSからCHINA"
+      ><br>
+        NORMAL_右TRIPS から CHINA<br>
+        coverage: COVER-3<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHINA"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1cD97lWw0Hy7ShZGGbmCjPZqpo0ijvpyU&usp=sharing" 
+      alt="vsCover3_MOTION_右TRIPSからCHINA"
+      ><br>
+        MOTION_右TRIPS から CHINA<br>
+        coverage: COVER-3<br>
+        weakness: CB, OLB
+    </li>
+
+    <!-- 左TRIPS CHINA -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHINA"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1_3UsBBEg2wZ68RvoVxj_DAF6hTYeiLsG&usp=sharing" 
+      alt="vsCover2_NORMAL_左TRIPSからCHINA"
+      ><br>
+        NORMAL_左TRIPS から CHINA<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHINA"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1G8zfP5_FO7ZUYfWhl8VAUs_jwiWbJ0Ww&usp=sharing" 
+      alt="vsCover2_MOTION_左TRIPSからCHINA"
+      ><br>
+        MOTION_左TRIPS から CHINA<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHINA"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=107mfIjOeJic8P8uV2GGykIDdec79HMxu&usp=sharing" 
+      alt="vsCover3_NORMAL_左TRIPSからCHINA"
+      ><br>
+        NORMAL_左TRIPS から CHINA<br>
+        coverage: COVER-3<br>
+        weakness: CB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["CHINA"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1otIZSjSQayD-LZWf5_JVj5gc5drM0lLA&usp=sharing" 
+      alt="vsCover3_MOTION_左TRIPSからCHINA"
+      ><br>
+        MOTION_左TRIPS から CHINA<br>
+        coverage: COVER-3<br>
+        weakness: CB, OLB
+    </li>
+
+    <!-- 右TRIPS ALL-UP -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1jflVv1C2lZZHfW1P6c2Mo6FeiOQrq7-B&usp=sharing" 
+      alt="vsCover2_NORMAL_右TRIPSからALL-UP"
+      ><br>
+        NORMAL_右TRIPS から ALL-UP<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1MvBcxlptbfDO63D7klWK2bFBhcTeGyJ3&usp=sharing" 
+      alt="vsCover2_MOTION_右TRIPSからALL-UP"
+      ><br>
+        MOTION_右TRIPS から ALL-UP<br>
+        coverage: COVER-2<br>
+        weakness: CB, SF
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1TY9WxYJAefuuQtZxp5TeNVQ37FW39q71&usp=sharing" 
+      alt="vsCover3_NORMAL_右TRIPSからALL-UP"
+      ><br>
+        NORMAL_右TRIPS から ALL-UP<br>
+        coverage: COVER-3<br>
+        weakness: CB, SF
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["RIGHT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1FjcpZhBJ0IPTSSJMKX7iVXs-mclVnaP_&usp=sharing" 
+      alt="vsCover3_MOTION_右TRIPSからALL-UP"
+      ><br>
+        MOTION_右TRIPS から ALL-UP<br>
+        coverage: COVER-3<br>
+        weakness: CB, SF
+    </li>
+
+    <!-- 左TRIPS ALL-UP -->
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","OLB"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1D2LVHyc7jpyhsx0QmSxmkqZ0aEXTOCT6&usp=sharing" 
+      alt="vsCover2_NORMAL_左TRIPSからALL-UP"
+      ><br>
+        NORMAL_左TRIPS から ALL-UP<br>
+        coverage: COVER-2<br>
+        weakness: CB, OLB
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-2"]'
+      data-weakness='["CB","SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1P6bn4lpJkt32Yq5cB67-XxAesIrdJ_9S&usp=sharing" 
+      alt="vsCover2_MOTION_左TRIPSからALL-UP"
+      ><br>
+        MOTION_左TRIPS から ALL-UP<br>
+        coverage: COVER-2<br>
+        weakness: CB, SF
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["NORMAL"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=17F3WOk_Bs0KyRWDd3WLJlNG5xlqfF5j3&usp=sharing" 
+      alt="vsCover3_NORMAL_左TRIPSからALL-UP"
+      ><br>
+        NORMAL_左TRIPS から ALL-UP<br>
+        coverage: COVER-3<br>
+        weakness: CB, SF
+    </li>
+
+    <li class="list_item" 
+      data-formation='["RIGHT-SHOT","LEFT-SHOT","SETBACK","PISTOL"]'
+      data-motion='["MOTION"]'
+      data-pformation='["LEFT-TRIPS"]'
+      data-bassignment='["ST-SLIDE", "POWER-FAKE", "ROLL"]'
+      data-passignment='["ALL-UP"]'
+      data-coverage='["COVER-3"]'
+      data-weakness='["CB","SF"]'
+      >
+      <img 
+      src="https://drive.google.com/uc?export=view&id=1Xv3O-l1nEbZTE0Hcv_ksRA-OqK42gOnn&usp=sharing" 
+      alt="vsCover3_MOTION_左TRIPSからALL-UP"
+      ><br>
+        MOTION_左TRIPS から ALL-UP<br>
+        coverage: COVER-3<br>
+        weakness: CB, SF
+    </li>
+    
+
+
+
+
+
+
+    
+
+    
+  
+  
+</body>
+
+</html>
